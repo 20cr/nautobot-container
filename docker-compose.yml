@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  nautobot:
+    container_name: nautobot
+    build:
+      context: "."
+      args:
+        NAUTOBOT_VER: stable
+        PYTHON_VER: "3.9"
