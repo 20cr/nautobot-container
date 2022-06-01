@@ -1,4 +1,4 @@
-ARG PYTHON_VER
+ARG PYTHON_VER=3.9
 ARG NAUTOBOT_VER=stable
 FROM networktocode/nautobot:${NAUTOBOT_VER}-py${PYTHON_VER}
 
